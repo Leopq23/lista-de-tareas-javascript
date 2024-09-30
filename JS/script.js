@@ -11,7 +11,7 @@ function agregarTarea(){
 
     // Creo el botón de borrar
     let botonBorrar = document.createElement("button");
-    botonBorrar.textContent = "Borrar";
+    botonBorrar.textContent = "Hecho";
     botonBorrar.onclick = function(){ nuevaTarea.remove();}
 
     // Agrego el boton de borrar a la tarea de la lista
